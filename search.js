@@ -10,3 +10,17 @@ for (let currentNumber of allNumbers) {
 }
 
 console.log('The biggest number is:', biggestNumber);
+
+
+let smallestNumber = biggestNumber;
+
+for (let currentNumber of allNumbers) {
+  if (currentNumber < smallestNumber) {
+    smallestNumber = currentNumber;
+  }
+}
+
+console.log('The smallest number is:', smallestNumber);
+
+
+
